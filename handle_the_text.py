@@ -14,6 +14,7 @@ def handle_synonym_text(data_initial):
 	return data_initial+' s'
 
 def change_clipboard(text):
+	print text
 	# Read clipboard data
 	data_initial = clipboard_read()
 	#Defind a kind of change required
